@@ -1,0 +1,18 @@
+[
+    {
+        "id":1,
+        "priority": 1,
+        "action":{
+            "type":"redirect",
+            "redirect":{
+                "regexSubstitution": "https://akizukidenshi.com/catalog/g/g1\\1"
+            }
+        },
+        "condition":{
+            "regexFilter":"^https?://(?:www\\.)?akizukidenshi\\.com/catalog/g/g[A-Z]-([0-9]+)",
+            "resourceTypes":[
+                "main_frame"
+            ]
+        }
+    }
+]
